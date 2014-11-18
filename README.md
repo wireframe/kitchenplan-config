@@ -20,3 +20,12 @@ After installing the kitchenplan gem, run the `setup` command and follow the giv
 $ kitchenplan setup https://github.com/wireframe/kitchenplan-config.git
 $ kitchenplan provision
 ```
+
+## Updating
+
+Running these commands will pull down the latest cookbooks and install recent changes.
+
+```bash
+$ kitchenplan setup
+$ kitchenplan provision
+```
