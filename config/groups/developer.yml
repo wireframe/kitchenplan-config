@@ -1,0 +1,23 @@
+attributes:
+  homebrew:
+    formulas:
+      - git
+      - pkg-config
+      - cmake
+      - libpqxx
+      - phantomjs
+      - heroku
+      - nodejs
+      - ruby-build
+      - rbenv
+      - rbenv-gem-rehash
+      - rbenv-binstubs
+      - rbenv-bundler-ruby-version
+      - ansible
+      - lastpass-cli
+      - postgresql
+    casks:
+      - virtualbox
+      - vagrant
+      - mou
+      - github

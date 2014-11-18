@@ -1,0 +1,11 @@
+recipes:
+  global:
+    - homebrew::install_formulas
+    - homebrew::install_casks
+
+attributes:
+  homebrew:
+    casks:
+      - google-chrome
+      - firefox
+      - slack

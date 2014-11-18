@@ -1,0 +1,8 @@
+groups:
+  - developer
+
+attributes:
+  homebrew:
+    casks:
+      - evernote
+      - alfred
