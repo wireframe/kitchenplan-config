@@ -6,3 +6,4 @@ attributes:
     casks:
       - evernote
       - alfred
+      - spectacle
