@@ -16,6 +16,7 @@ attributes:
       - ansible
       - lastpass-cli
       - postgresql
+      - vim
     casks:
       - virtualbox
       - vagrant
