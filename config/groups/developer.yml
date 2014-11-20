@@ -11,6 +11,7 @@ attributes:
       -
         user: <%= ENV['USER'] %>
         global: 2.1.5
+        root_path: /Users/<%= ENV['USER'] %>/.rbenv
     user_rubies:
       - 2.1.5
     user_plugins:
