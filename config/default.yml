@@ -1,7 +1,7 @@
 recipes:
   global:
     - homebrew::install_formulas
-    # - homebrew::install_casks
+    - homebrew::install_casks
 
 attributes:
   homebrew:
