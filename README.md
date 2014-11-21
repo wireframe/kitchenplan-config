@@ -26,6 +26,7 @@ $ kitchenplan provision
 Running these commands will pull down the latest cookbooks and install recent changes.
 
 ```bash
+$ cd /opt/kitchenplan
 $ kitchenplan setup
 $ kitchenplan provision
 ```
