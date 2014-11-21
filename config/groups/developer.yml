@@ -1,4 +1,32 @@
+recipes:
+  global:
+    - ruby_build::default
+    - rbenv::user
 attributes:
+  ruby_build:
+    upgrade: true
+  rbenv:
+    create_profiled: false
+    user_installs:
+      -
+        user: <%= ENV['USER'] %>
+        global: 2.1.5
+        root_path: /Users/<%= ENV['USER'] %>/.rbenv
+    user_rubies:
+      - 2.1.5
+    user_plugins:
+      -
+        name: rbenv-binstubs
+        git_url: https://github.com/ianheggie/rbenv-binstubs.git
+        git_ref: v1.4
+      -
+        name: rbenv-bundler-ruby-version
+        git_url: https://github.com/aripollak/rbenv-bundler-ruby-version.git
+        git_ref: v0.2
+      -
+        name: rbenv-gem-rehash
+        git_url: https://github.com/sstephenson/rbenv-gem-rehash.git
+        git_ref: v1.0.0
   homebrew:
     formulas:
       - git
@@ -8,11 +36,6 @@ attributes:
       - phantomjs
       - heroku
       - nodejs
-      - ruby-build
-      - rbenv
-      - rbenv-gem-rehash
-      - rbenv-binstubs
-      - rbenv-bundler-ruby-version
       - ansible
       - lastpass-cli
       - postgresql

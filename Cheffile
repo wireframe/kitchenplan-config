@@ -1,3 +1,5 @@
 site "http://community.opscode.com/api/v1"
 
 cookbook 'homebrew', github: 'opscode-cookbooks/homebrew', ref: 'v1.9.2'
+cookbook 'ruby_build', github: 'fnichol/chef-ruby_build', ref: 'v0.8.0'
+cookbook 'rbenv', github: 'wireframe/chef-rbenv', ref: 'master'
